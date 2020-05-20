@@ -18,7 +18,7 @@ public class PrintMap {
 		map.put('C', 3);
 		map.put('D', 4);
 		map.put('E', 5);
-		//Method 6
+		//Method 5
 		map.forEach((eachKey,eachValue) -> System.out.println(eachKey+ "->" + eachValue)); //Lambda expression
 		
 		//Method 1
@@ -44,12 +44,9 @@ public class PrintMap {
 
 		}
 
-		//Method 4
-		for (Entry<Character, Integer> entry : map.entrySet()) {
-			System.out.println(entry.getKey() + "->" + entry.getValue());
-		}
 		
-		//Method 5
+		
+		//Method 4
 		int c=0;
 		while(c<map.size())
 		{
